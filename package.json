@@ -1,0 +1,18 @@
+{
+  "name": "presentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mdx-deck build src/deck.mdx",
+    "pdf": "mdx-deck-export pdf src/deck.mdx",
+    "start": "mdx-deck src/deck.mdx"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@mdx-deck/export": "^2.5.1",
+    "mdx-deck": "^3.0.9"
+  }
+}
